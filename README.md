@@ -11,7 +11,7 @@ pip install locust
 **Perintah di Terminal**
 
 ```
-locust -f locustfile.py --master --host https://namadomain.com -u 1000 -r 50
+locust -f locustmain.py --master --host https://namadomain.com -u 1000 -r 50
 ```
 
 - -u 1000 → jumlah user virtual
